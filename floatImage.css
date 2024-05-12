@@ -1,0 +1,12 @@
+body{
+    align-items: center;
+    justify-content: center;
+    min-height: 1000vh;
+    display:block ;
+}
+ img{   
+    width: 3%;
+    margin: -14% 80% 80% 50%;
+}
+
+

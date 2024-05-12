@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background:linear-gradient(to left, rgb(7, 7, 54),rgb(5, 54, 110));
+}
+
+ul{
+    list-style-type: none;
+    padding: 20px;
+    margin: 10px;
+    
+}
+
+li a{
+    display: inline;
+    float: right;
+    margin: 20px;
+    text-decoration: none;
+    color: aqua;
+
+}
+
+h1{
+    color: aqua;
+    font-weight: bolder;
+    margin-left: 15%;
+
+}
+sub{
+    font-style: italic;
+    
+}
+
+li a:hover{
+    color: hotpink;
+    text-decoration: underline;
+}
+
+.Profile{
+    display: inline;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+    border: 1px solid aquamarine;
+    padding: 5px;
+    border-radius: 50%;
+    align-items: center;
+    object-fit: scale-down;
+    box-shadow: 0 4px 8px aquamarine,
+    0 4px 8px aquamarine;
+    margin-left: 70%;
+}
+
+h3{
+    text-shadow: 2px 2px 5px aqua;
+}
+
+span{
+    text-decoration: underline;
+}
+li{
+    color: aqua;
+}
+
+.hobby{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.contact{
+    text-align: center;
+}
+.friend{
+    text-align: center;
+}

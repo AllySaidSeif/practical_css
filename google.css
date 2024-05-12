@@ -1,0 +1,36 @@
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(
+        to right , #4285f4 0% 23%,
+        #ea4335 23% 40%,
+        #fbbc05 40% 58%,
+        #4285f4 58% 75%,
+        #34a853 75% 83%,
+        #ea4335 83%);
+        display: inline-block;
+        -webkit-background-clip:text;
+        color: transparent;
+}
+input{
+    height: 40px;
+    width: 80%;
+    margin-top: -80px;
+
+}
+button{
+    background-color: rgb(231, 229, 229);
+    margin: 10px;
+    padding: 10PX;
+    width: 150px;
+    border: none;
+
+}
